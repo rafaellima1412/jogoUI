@@ -75,7 +75,7 @@ class App(QMainWindow):
         self.setWindowTitle(self.title)
         self.setGeometry(self.left, self.top, self.width, self.height)
         #icone
-        self.setWindowIcon(QIcon("gourmet.ico"));
+        self.setWindowIcon(QIcon("ico.png"))
         #imagem png
         oImage = QImage("ico.png")
         sImage = oImage.scaled(QSize(400,140))
